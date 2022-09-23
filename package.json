@@ -1,23 +1,35 @@
 {
-  "dependencies": {
-    "express": "^4.18.1"
-  },
-  "name": "sticky-note",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kdany25/Sticky-Note.git"
-  },
-  "author": "kabalisa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kdany25/Sticky-Note/issues"
-  },
-  "homepage": "https://github.com/kdany25/Sticky-Note#readme",
-  "description": ""
+	"name": "sticky-note",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": " nodemon --exec ./node_modules/.bin/babel-node index.js",
+		"start": "nodemon --exec ./node_modules/.bin/babel-node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kdany25/Sticky-Note.git"
+	},
+	"author": "kabalisa",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/kdany25/Sticky-Note/issues"
+	},
+	"homepage": "https://github.com/kdany25/Sticky-Note#readme",
+	"description": "",
+	"dependencies": {
+		"@babel/cli": "^7.18.10",
+		"@babel/core": "^7.19.1",
+		"@babel/node": "^7.19.1",
+		"@babel/preset-env": "^7.19.1",
+		"cors": "^2.8.5",
+		"cross-env": "^7.0.3",
+		"crypto-js": "^4.1.1",
+		"dotenv": "^16.0.2",
+		"express": "^4.18.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.6.1",
+		"nodemon": "^2.0.20"
+	}
 }
