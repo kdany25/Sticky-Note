@@ -3,7 +3,7 @@ dotenv.config({ path: "./.env" });
 import express from "express";
 import Mongoose from "mongoose";
 import cors from "cors";
-import StickyNoteRoute from "./route/StickyNoteRoute.js";
+import StickyNoteRoute from "./route/StickyNoteRoute";
 
 const app = express();
 dotenv.config();

@@ -1,5 +1,5 @@
 import express from "express";
-import StickyNote from "../models/stickyNote.js";
+import StickyNote from "../models/stickyNote";
 
 const router = express.Router();
 

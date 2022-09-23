@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const StickyNOteSchema = new mongoose.Schema(
+const StickyNoteSchema = new mongoose.Schema(
 	{
 		owner: { type: String, required: true },
 		details: { type: Number, required: true },
@@ -9,4 +9,4 @@ const StickyNOteSchema = new mongoose.Schema(
 	{ timestamps: true }
 );
 
-module.exports = mongoose.model("StickyNote", StickyNOteSchema);
+module.exports = mongoose.model("StickyNote", StickyNoteSchema);
