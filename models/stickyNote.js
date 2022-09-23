@@ -8,9 +8,6 @@ const StickyNoteSchema = new mongoose.Schema(
 			type: String,
 			enum : ['PERSONAL','INTERNAL','PUBLIC'] ,
 			required: true
-			
-			
-		
 		}
 	},
 
