@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const StickyNoteSchema = new mongoose.Schema(
 	{
 		owner: { type: String, required: true },
-		details: { type: Number, required: true },
+		details: { type: String, required: true },
 	},
 
 	{ timestamps: true }
