@@ -4,6 +4,14 @@ const StickyNoteSchema = new mongoose.Schema(
 	{
 		owner: { type: String, required: true },
 		details: { type: String, required: true },
+		permission: {
+			type: String,
+			enum : ['PERSONAL','INTERNAL','PUBLIC'] ,
+			required: true
+			
+			
+		
+		}
 	},
 
 	{ timestamps: true }
